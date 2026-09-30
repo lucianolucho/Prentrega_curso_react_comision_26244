@@ -17,6 +17,8 @@ const App = () => {
         <Route path="/" element={<h1>Página de Inicio</h1>} />
         <Route path="/productos" element={<ItemListContainer Mensaje={"Productos destacados"} />} />
         <Route path="/producto/:id" element={<DetalleProducto Mensaje={"Productos destacados"} />} />
+        <Route path="/carrito" element={<h1>carrito...</h1>} />
+
         <Route path="/destacados" element={<ItemListContainer Mensaje={"Todos los productos"} />} />
         <Route path="/alta" element={<FormularioProductoContainer />} />  
       </Route>

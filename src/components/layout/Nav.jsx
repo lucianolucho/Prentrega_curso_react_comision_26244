@@ -22,6 +22,11 @@ const Nav = () => {
             Contacto
           </Link>
         </li>
+        <li>
+          <Link to="/carrito" >
+            Carrito
+          </Link>
+        </li>
       </ul>
     </nav>
 
